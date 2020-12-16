@@ -122,6 +122,8 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'backend.User'
 
+# superuser email and password: admin@admin.admin
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
